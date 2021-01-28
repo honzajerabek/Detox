@@ -787,6 +787,10 @@ declare global {
              * Launch config for specifying the native language and locale
              */
             languageAndLocale?: LanguageAndLocale;
+            /**
+             * Disable touch indicators on iOS. Default is false.
+             */
+            disableTouchIndicators?: boolean;
         }
 
         interface CircusTestEventListenerBase {
